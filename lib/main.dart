@@ -1,6 +1,13 @@
+import 'package:application_1/gradient_container.dart';
 import 'package:flutter/material.dart';
-import './gradient_container.dart';
 
 void main() {
-  runApp(const MaterialApp(home: Scaffold(body: GradientContainer())));
+  runApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        body: GradientContainer.purple(),
+      ),
+    ),
+  );
 }
